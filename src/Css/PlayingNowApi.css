@@ -1,0 +1,60 @@
+:root {
+  --font-color: #0085bd;
+}
+
+.now-playing-container {
+  padding: 0 0 2.5em 0;
+}
+
+.status-text {
+  text-transform: capitalize;
+  color: #0085bd;
+  width: 10em;
+  padding: .5em .5em;
+  margin: 3.5em 0 0 1em;
+  transition: all ease-in-out .3s;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 300;
+}
+
+.status-text:hover {
+  background-color: #0085bd;
+  padding-left: 1em;
+  color: #fff;
+}
+
+.playing-card {
+  width: 193vh;
+  height: 55vh;
+  /* background-color: red; */
+  /* margin: 2em 0; */
+  padding: 1em 1.5em;
+}
+
+.playing-card .card {
+  width: 30vh;
+  height: 100%;
+  /* background-color: yellow; */
+  border-radius: 15px;
+  position: relative;
+}
+
+.playing-card .card .image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  background-color: var(--font-color);
+}
+
+.playing-card .card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  z-index: -10;
+}
+

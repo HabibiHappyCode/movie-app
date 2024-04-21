@@ -1,0 +1,28 @@
+.search-container {
+    width: 60%;
+    height: auto;
+    border-radius: 4px;
+    border: solid rgba(0, 0, 0, .4) 1.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fbfbfb;
+    padding: 0 .7em
+}
+
+.search-container .search {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: auto;
+    padding: .5em .1em;
+    border-radius: 3px;
+    background: #fbfbfb;
+    color: #0085bd;
+}
+
+.icon {
+    color: #0085bd;
+    transform: rotate(90deg);
+    cursor: pointer;
+}

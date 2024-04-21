@@ -1,0 +1,33 @@
+.sidebar-contianer {
+    width: 55px;
+    height: 100vh;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 7.%;
+    text-align: center;
+    padding: 1.2em 0;
+    z-index: 100000;
+    border-top-right-radius: -8px;
+}
+
+.sidebar-contianer .icon {
+    color: #0085bd;
+    font-size: 1.5em;
+    transform: rotate(0deg);
+    transition: all ease-in .2s;
+}
+
+.sidebar-contianer .icon:hover {
+    color: #0085bd;
+}
+
+.sidebar-contianer p {
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #0085bd;
+    transition: all ease-in .2s;
+}
+
+.sidebar-contianer .icon:hover .sidebar-contianer p {
+    color: #000;
+}
